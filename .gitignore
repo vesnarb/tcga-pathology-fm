@@ -1,0 +1,24 @@
+# Data and model artifacts (gated / non-redistributable; see DATA.md)
+data/*
+!data/.gitkeep
+*.pt
+*.bin
+*.h5
+*.safetensors
+huggingface/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.pixi/
+*.egg-info/
+build/
+dist/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
