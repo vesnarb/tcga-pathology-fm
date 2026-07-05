@@ -1,0 +1,20 @@
+[project]
+name = "tcga-pathology-fm"
+version = "0.1.0"
+description = "Predicting TCGA labels from pathology foundation model embeddings, with honest baselines."
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "win-64"]
+
+[dependencies]
+python = "3.11.*"
+numpy = "*"
+pandas = "*"
+pyarrow = "*"
+scikit-learn = "*"
+xgboost = "*"
+matplotlib = "*"
+jupyterlab = "*"
+huggingface_hub = "*"
+
+[tasks]
+lab = "jupyter lab"
